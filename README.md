@@ -21,4 +21,4 @@ NCtoIDF("path/to/forder", cellIDs = c(296, 263, 264, 265, 295, 297, 327, 328, 32
 
 ### Example output
 
-![examplePlot.png](https://github.com/TimurVlas/NCReadpkg/tree/main/pictures/examplePlot.png)
+![examplePlot.png](https://github.com/TimurVlas/NCReadpkg/blob/main/pictures/examplePlot.png)
