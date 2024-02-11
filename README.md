@@ -1,4 +1,4 @@
-# NCIDFViewer
+# NCRead
 
 This repository contains an R library which calculates IDF Curves on data from NC files
 
@@ -10,15 +10,15 @@ Library contains ``` NCtoIDF(folder, ids)``` function which accepts folder path 
 
 ```R
 # install.packages("devtools")
-devtools::install_github(repo = "strnda/advRpckg")
+devtools::install_github(repo = "TimurVlas/NCRead")
 ```
 
 ```R
-library(NCViewer)
+library(NCRead)
 
 NCtoIDF("path/to/forder", cellIDs = c(296, 263, 264, 265, 295, 297, 327, 328, 329))
 ```
 
 ### Example output
 
-![examplePlot.png](https://github.com/Zarrett/NCIDFViewer/blob/main/pictures/examplePlot.png)
+![examplePlot.png](https://github.com/TimurVlas/NCReadpkg/tree/main/pictures/examplePlot.png)
